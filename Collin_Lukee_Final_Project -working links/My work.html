@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Portfolio/resume</title>
+<style>
+    body{
+        background-color: #e58900b8;
+    }
+    .bio-intro{
+        font-size: 30px;
+        text-align: center;
+        font-family: sans-serif;
+        background-color: #2269f2;
+        border: 6px solid black;
+        padding-bottom: 10px;
+        height: 100px;
+        width: 600px;
+
+    }
+    h1{
+        background-color:#2269f2;
+        background-size:300px 200px;
+        border:4px solid black;
+        text-align:center;
+        align-content:center;
+        align-self:center;
+        height:50px;
+    }
+    .grid-container{
+        display: grid;
+        grid-template-columns:450px 450px 450px;
+        gap: 25px 50px;
+        row-gap: 40px;
+        grid-template-rows:676px 676px 676px;
+        padding:30px;
+        background-color:#2269f2;
+        border: 6px solid black;
+        border-radius: 15px;
+        justify-content: space-evenly;
+        width: 1450px;
+    }
+    .grid-container > div{
+        background-color: #6a6a6a;
+        background-size:610px;
+        justify-items: center;
+        border: 5px solid black;
+        border-radius: 35px;
+    }
+    .two-cards{
+        grid-column: 1/span 2;
+    }
+    .column{
+        float:left;
+        width:auto;
+        padding:20px;
+        margin: 5px;
+        background-color: #2269f2;
+        border: 6px solid black;
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .row::after{
+        content:"";
+        display:table;
+        clear:both;
+    }
+    .card{
+        background-color: #6a6a6a;
+        padding:6px;
+        width:330px;
+        border: 3px solid black;
+        font-size: 20px;
+    }
+    .nav{
+        list-style-type: none;
+        position: sticky;
+        margin: 5px;
+        padding:1px;
+        font-size: 24px;
+        background-color: #2269f2;
+        border: 4px solid black;
+    }
+    .nav-section{
+        display:inline;
+        padding:25px;
+        text-align: center;
+    }
+    .nav-section:hover{
+        background-color: #0009ffa2;
+    }
+    .title{
+        font: bold;
+        text-align: center;
+        font-size: 40px;
+        margin: 0px;
+    }
+    .info{
+        font-size: 20px;
+        padding: 5px;
+        margin: 1px;
+        text-align: center;
+    }
+    .contact{
+        background-color: #2269f2;
+        font-size: 25px;
+        border: 4px solid black;
+        border-radius: 10px;
+        padding-left: 5px;
+        width: 350px;
+        height: 200px;
+        padding-top: 25px;
+        padding-left: 20px
+    }    
+    .calling-card{
+        background-color: #6a6a6a;
+        padding:6px;
+        width:300px;
+        border: 3px solid black;
+        border-radius: 5px;
+        font-size: 20px;
+        font: italic;
+    }
+    a:link{
+        color:black;
+    }
+    a:visited{
+        color: #e58900b8;
+    }
+    a:hover{
+        color: #0a8dff;
+    }
+    a:active{
+        color: #6a6a6a;
+    }
+    @media only screen and (max-width:700px){
+        .card{
+            background-color:#e58900b8;
+        }
+        .grid-container > div{
+            background-color: #e58900b8;
+        }
+        .calling-card{
+            background-color: #e58900b8;
+        }
+        body{
+                background-color: #6a6a6a;
+            }
+        .grid-container{
+            display: inline;
+            background: none;
+            border: none;
+        }
+    }
+</style>
+</head> 
+
+<body>
+<h1>Portfolio</h1>
+<div class="nav">
+<ul>
+    <li class="nav-section"> <b><a href="file:///E:/web%20design%202/Project/Collin_Lukee_Final_Project%20-links/index.html">About Me</a></b></li>
+    <li class="nav-section"> <b><a href="file:///E:/web%20design%202/Project/Collin_Lukee_Final_Project%20-links/My%20work.html">My Work</a></b></li>
+    <li class="nav-section"> <b><a href="file:///E:/web%20design%202/Project/Collin_Lukee_Final_Project%20-links/Contact.html">Contact</a></b></li>
+</ul>
+</div>    
+
+<div class="bio-intro">
+<h2> My Works</h2>
+    </div>
+    <br>
+<div class="grid-container">    
+    <div>
+        <div class="title"><i>When Life was good</i></div>
+        <img src="examples/When%20Life%20was%20good.png" alt="Sad biker" width="400" height="400">
+        <div class="info"><p>My project was based on wanting to be a biker and see the world. I have seen buildings
+            abandoned and I thought about a biker coming home seeing what was once home, just a building falling apart
+            with nothing left but memories of a past he can see but can't relive. I made the filter to grey scale cut
+            a the biker and stilhouette and mix put them all in photoshop.
+            </p></div>
+    </div>
+    <div>
+        <div class="title"><i>Hard Shell</i></div>
+        <img src="examples/turtle-biker.jpg" alt="Hard-Shell" width="400" height="400">
+        <div class="info"><p>This project was still base on me wanting to become a biker and wishing there
+            was a dealership that sold motorcycle. A thought hit me about the turtle and hare, thinking I said what if the turtle
+            had a bike and thats why he won the race. I used illustator to make the design and based the bike around 
+            Indian Motorcycle </p></div>
+    </div>
+    <div>
+        <div class="title"><i>Few Words</i></div>
+        <img src="examples/Few%20Words.jpg" alt="few-words" width="400" height="400">
+        <div class="info"><p>I was going through a hard time at point of my life, and well some words felt
+            big and heavey that it was almost impossible to hold all this in, but someone texted me comfort
+            and she really help me relaxed and help with my stress. I made this to represent the battle some of
+            us go through and how few words can help us in our battle. All design are done in illustrator.</p></div>
+    </div>
+    <div>
+        <div class="title"><i>80's Spider-Man Poster</i></div>
+        <img src="examples/marvel%20spiderman%2080's%20movie%20poster%20we%20are%20venom.jpg" alt="spiderman" width="400" height="400">
+        <div class="info"><p>I was a fan of the old Indiana Jones poster. I'm a fan of Spider-Man, so I decide to
+            combine the two to make a a poster to standout from the rest of other Marvel's movies. So I thought  whats one fight we the fans want to see in the mcu. Spider-Man vs Venom. I used photo shop to make the poster
+            effect and cut out Venom and Spider-Man in the back ground.</p></div>
+    </div>
+    <div>
+        <div class="title"><i>Hauntless Ghost</i></div>
+        <img src="examples/hauntless%20ghost.jpg" alt="lonely-ghost" width="400" height="400">
+        <div class="info"><p> Hauntless Ghost was based on a poem I written, the idea is asking yourself if your a ghost
+            would you stay around or go in the afterlife. This was a personal project and I feel this is when I did my best
+            when I was still trying to keep my skill sharpe after taking the class. All the design were created in illustrator </p></div>
+    </div>
+    <div>
+        <div class="title"><i>The Sheriff</i></div>
+        <img src="examples/Welcome%20The%20Sheriff.jpg" alt="The Sheriff" width="400" height="400">
+        <div class="info"><p> This is one of my 3d project uing blender. This was a roughdraft and first attempt to make an
+            orignal design for a game asset. This idea was to add the asset in Starfield creations content. The whoe 3d modle was build in blender
+            and are build with sperate peices.</p></div>
+    </div>
+    <div class="two-cards">
+        <div class="title"><i>Trust and BLAME</i></div>
+        <img src="examples/trust_.jpg" alt="Trust us" width="400" height="400"> <img src="examples/Blame.jpg" alt="Blame" width="400" height="400">
+        <div class="info"><p> I made this cause I was mad that the Donld Trump won the 2024 election. I know 
+            this design was more of a vent but I thought about it more in design to what the maga supoorters see
+            in the words Trump has said and well it's safe to safe that the lies are not biting back on everyone
+            in the U.S. This was to expose the truth behind each lie all the designs were made in photoshop
+            and the elephants was redesign in illustrator.</p></div>
+    </div>
+    <div>
+        <div class="title"><i>Life is going fast</i></div>
+    
+        <img src="examples/Moving%20too%20fast.jpg" alt="life is moving too fast" width="400" height="400">
+        <div class="info"><p>Sometimes Life feels like it's moving too fast to keep up somedays I made this image using
+            people walking using motion blur to make the people look like there moving fast and two guys who are slowly
+            to avoid such speed , but eventurally they do. All was edit in photoshop using filters and light and contrast
+            to fit the characters in.</p></div>
+    </div>
+    <div>
+        <div class="title"><i>Hearts in the Sky</i></div>
+        <img src="examples/valentines%20day%20at%20sky%20city%20(Finale).png" alt="=valentine" width="400" height="400">
+        <div class="info"><p>This project was an old attempt to  test my skill in making poster and advertisment. It's 
+            been a so long that I have to relook at the files. I made the heart background using illustrator and made made 
+            the design repeat on photoshop and added in some picture to advertise at Sky City.</p></div>
+    </div>
+    <div>
+        <div class="title">Sky City Redesign</div>
+        <img src="examples/skycity%20new%20no%20sun.jpg" width="400" height="400">
+        <div class="info"><p>I made a redesign for the Casino at Sky City after seeing the old design wear off over the
+            years. All the design seen on here were made in illustrator. This was my real redeisgn. After looking at it
+            I think another redesign after sharpen my skill might help with this one.</p></div>
+    </div>
+    <div>
+        <div class="title"><i>Halloween at Sky</i></div>
+        <img src="examples/Sky%20City%20Halloween%20event%20(final).jpg" width="400" height="400">
+        <div class="info"><p>Halloween is the number 1 hoilday. I know the Cansio have activties, so I decide to make a
+            poster to make a halloween theme poster. All of the design was cut and pasted on photo shop. The Horns for 
+            the devil was made in illustrator and photos were found online.</p></div>
+    </div>
+    <div>
+        <div class="title"><i>Smoking</i></div>
+        <img src="examples/Smoke%20of%20the%20past%20in%20the%20bar.jpg" alt="smoke" width="400" height="400">
+        <div class="info"><p> This was a redesign of an old photoshop project, last time I did something like this the
+            cut out was bad and sloppy even for a beginner. I decide to make a simple cut out and use filters in photoshop.
+            and layers options.</p></div>
+    </div>
+</div>
+    
+</body>
+    
+</html>
